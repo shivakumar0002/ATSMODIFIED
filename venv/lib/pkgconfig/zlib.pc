@@ -1,0 +1,13 @@
+prefix=/Users/godipally.shivakumar/Desktop/ATSMODIFIED/venv
+exec_prefix=/Users/godipally.shivakumar/Desktop/ATSMODIFIED/venv
+libdir=/Users/godipally.shivakumar/Desktop/ATSMODIFIED/venv/lib
+sharedlibdir=/Users/godipally.shivakumar/Desktop/ATSMODIFIED/venv/lib
+includedir=/Users/godipally.shivakumar/Desktop/ATSMODIFIED/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
